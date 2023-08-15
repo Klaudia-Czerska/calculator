@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows calculator</title>
+    <script src="https://kit.fontawesome.com/52cc5773d5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./resources/css/style.css">
+  </head>
+  <body>
+    <div class="calc">
+        <div class="nav">
+            <button id="menu"><i class="fas fa-bars"></i></button>
+            <button id="switch">Standard</button>
+            <button id="history-button"><i class="fas fa-history"></i></button>
+        </div>
+        <div class="modal hidden fade">
+            <div class="modal-close">
+
+            </div>
+            <div class="history">
+                <ul id="history">
+                    <li>No history yet</li>
+                </ul>
+                <button class="clear-history"><i class="far fa-trash-alt"></i></button>
+            </div>
+        </div>
+        <div class="calculations">
+            <span id="calculations"></span>
+        </div>
+        <div class="current-calculations">
+            <span id="current-calculations"></span>
+        </div>
+        <div class="operations-and-numbers">
+            <ul>
+                <li class="button"><button class="operation" id="percentage"><i class="fas fa-percentage"></i></button></li>
+                <li class="button"><button class="operation" id="clear-entry">CE</button></li>
+                <li class="button"><button class="operation" id="clear">C</button></li>
+                <li class="button"><button class="operation" id="backspace"><i class="fas fa-backspace"></i></button></li>
+                <li class="button"><button class="operation" id="one-divided"><img src="./resources/icons/one-divided.png"></button></li>
+                <li class="button"><button class="operation" id="square"><img src="./resources/icons/x-squared.png"></button></li>
+                <li class="button"><button class="operation" id="square-root"><i class="fa-solid fa-square-root-variable"></i></button></li>
+                <li class="button"><button class="math-operation" id="divide"><i class="fas fa-divide"></i>/</button></li>
+                <li class="button"><button class="number" id="seven">7</button></li>
+                <li class="button"><button class="number" id="eight">8</button></li>
+                <li class="button"><button class="number" id="nine">9</button></li>
+                <li class="button"><button class="math-operation" id="multiply"><i class="fas fa-times"></i>*</button></li>
+                <li class="button"><button class="number" id="four">4</button></li>
+                <li class="button"><button class="number" id="five">5</button></li>
+                <li class="button"><button class="number" id="six">6</button></li>
+                <li class="button"><button class="math-operation" id="minus"><i class="fas fa-minus"></i>-</button></li>
+                <li class="button"><button class="number" id="one">1</button></li>
+                <li class="button"><button class="number" id="two">2</button></li>
+                <li class="button"><button class="number" id="three">3</button></li>
+                <li class="button"><button class="math-operation" id="add"><i class="fas fa-plus"></i>+</button></li>
+                <li class="button"><button class="operation" id="change-arithmetic-sign"><i class="fas fa-plus-minus"></i></button></li>
+                <li class="button"><button class="number" id="zero">0</button></li>
+                <li class="button"><button id="dot">.</button></li>
+                <li class="button"><button class="math-operation" id="equals"><i class="fas fa-equals"></i>=</button></li>
+            </ul>
+        </div>
+    </div>
+  <script src="./resources/javascript/app.js">
+  </script>
+</body>
+</html>
