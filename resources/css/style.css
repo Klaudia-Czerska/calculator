@@ -1,6 +1,17 @@
 * {
+    font-family: 'Segoe UI';
     margin: 0;
     padding: 0;
+}
+
+:root {
+    --main-bg-color: #f5f4f1;
+    --button-bg-color: #f5f5f4;
+    --button-hover-bg-color: #f1f1f1;
+    --number-button-bg-color: #fdfdfd;
+    --primary-icon-color: #000;
+    --sec-icon-color: #4d4d4d;
+    --border-color: #0000001c;
 }
 
 body {
@@ -13,8 +24,8 @@ body {
 }
 
 button {
-    background-color: #f5f5f4;
-    border: solid 1px #0000001c;
+    background-color: var(--button-bg-color);
+    border: solid 1px var(--border-color);
     border-radius: 5px;
     box-shadow: 0px 1px 2px 0px #0000000e;
     font-size: 1.3rem;
@@ -25,7 +36,7 @@ button {
 }
 
 button:hover {
-    background-color: #f1f1f1;
+    background-color: var(--button-hover-bg-color);
 }
 
 img {
@@ -39,8 +50,8 @@ img {
 }
 
 .calc {
-    background-color: #f5f4f1;
-    border: solid 1px #0000003b;
+    background-color: var(--main-bg-color);
+    border: solid 1px var(--border-color);
     border-radius: 8px;
     box-shadow: 0px 0px 35px 3px #0000001e;
     display: flex;
@@ -73,15 +84,17 @@ img {
 }
 
 .calculations {
-    color: #333333;
-    font-size: 30px;
+    color: var(--sec-icon-color);
+    font-size: 1.5rem;
 }
 
 .current-calculations {
     text-align: right;
     height: 7%;
     width: 100%;
-    font-size: clamp(1rem, 3rem, 5rem)
+    font-size: clamp(1rem, 4rem, 7rem);
+    font-weight: 600;
+    margin-bottom: 2rem;
 }
 
 .operations-and-numbers {
@@ -133,8 +146,8 @@ img {
 
 .history {
     animation: slide-up ease 0.25s;
-    background-color: #f5f4f1;
-    border: solid 1px #0000003b;
+    background-color: var(--main-bg-color);
+    border: solid 1px var(--border-color);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -159,6 +172,7 @@ img {
 }
 
 .history ul li {
+    color: var(--sec-icon-color);
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
@@ -167,6 +181,7 @@ img {
 }
 
 .history ul li span {
+    color: var(--primary-icon-color);
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 20px;
@@ -174,7 +189,7 @@ img {
 }
 
 .number {
-    background-color: #fdfdfd;
+    background-color: var(--number-button-bg-color);
 }
 
 .math-operation,
@@ -183,7 +198,7 @@ img {
 }
 
 .math-operation i {
-    color: #000;
+    color: var(--primary-icon-color);
     margin-left: 7px;
 }
 
@@ -192,16 +207,18 @@ img {
     margin-left: 7px;
 }
 
-#change-arithmetic-sign {
-    background-color: #fdfdfd;
+#change-arithmetic-sign,
+#dot {
+    background-color: var(--number-button-bg-color);
 }
 
-#dot {
-    background-color: #fdfdfd;
+#change-arithmetic-sign:hover,
+#dot:hover {
+    background-color: var(--button-hover-bg-color);
 }
 
 #equals {
-    background-color: #585858;
+    background-color: var(--sec-icon-color);
 }
 
 #equals:hover {
