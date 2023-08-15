@@ -8,6 +8,7 @@ TECHNOLOGIES I USED:
 1. HTML
 2. CSS
 3. JavaScript
+
 I am thinking of redoing the whole app at this point with Bootstrap.
 
 TO ADD:
