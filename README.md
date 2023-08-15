@@ -11,16 +11,25 @@ TECHNOLOGIES I USED:
 
 I am thinking of redoing the whole app at this point with Bootstrap.
 
+KNOWN BUGS:
+1. Digits overflow
+2. Percentage, dividing one, square and square root are not working properly with the result of operation
+3. Dot is not working properly with 0 after using clear button on the result of operation
+4. Operations are not working properly after using buttons dividing one, square and square root with 0
+5. Equals button sometimes is not bringing the value of current calculations to calculations place - I have to check when is it happening
+6. Backspace should not work on results of operation, it should just delete the calculations
+7. Float imprecision
+8. History should have most recent operations on top, it is backwards right now
+
 TO DO:
-1. FIX BUGS ;)
-2. Memory
-3. Dark mode
-4. Menu
-5. Scientific version
-6. Graphic version
-7. Programmers version
-8. Date calculator
-9. Converters
+1. Memory
+2. Dark mode
+3. Menu
+4. Scientific version
+5. Graphic version
+6. Programmers version
+7. Date calculator
+8. Converters
 
 CREDTIS:
 1. Windows calculator ;)
