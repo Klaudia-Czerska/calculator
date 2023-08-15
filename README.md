@@ -1,5 +1,5 @@
 # WINDOWS CALCULATOR
-This is a first working version of calculator. It has some bugs. I have done it to challenge myself - no lines of code were copied from tutorial.
+This is a first working version of calculator. It has A LOT of bugs. I have done it to challenge myself - no lines of code were copied from tutorial.
 I have tried to make it resemble the Windows calculator app, as you can see it needs a little bit of work to be 1:1, but it is just a start.
 
 ![SCREENSHOT](https://github.com/Klaudia-Czerska/calculator/assets/134537052/aa8df148-9440-4f63-a38e-7b5baa4af140)
